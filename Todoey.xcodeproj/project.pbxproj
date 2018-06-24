@@ -58,20 +58,19 @@
 			children = (
 				DC36526220DEEBC900992AC6 /* Views */,
 				DC36526120DEEBC100992AC6 /* Controllers */,
-				DC36526020DEEBB700992AC6 /* Data Model */,
+				DC36526020DEEBB700992AC6 /* Model */,
 				DC36526320DEEC0200992AC6 /* Supporting Files */,
-				DC1645EC20DC305200489FE4 /* LaunchScreen.storyboard */,
 				DC1645EF20DC305200489FE4 /* Info.plist */,
 			);
 			path = Todoey;
 			sourceTree = "<group>";
 		};
-		DC36526020DEEBB700992AC6 /* Data Model */ = {
+		DC36526020DEEBB700992AC6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				DC36525E20DEEB9200992AC6 /* Item.swift */,
 			);
-			path = "Data Model";
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DC36526120DEEBC100992AC6 /* Controllers */ = {
@@ -93,6 +92,7 @@
 		DC36526320DEEC0200992AC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DC1645EC20DC305200489FE4 /* LaunchScreen.storyboard */,
 				DC1645E320DC305000489FE4 /* AppDelegate.swift */,
 				DC1645EA20DC305200489FE4 /* Assets.xcassets */,
 			);
